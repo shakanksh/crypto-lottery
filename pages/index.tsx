@@ -5,7 +5,7 @@ import Header from "../components/Header";
 
 const Home: NextPage = () => {
 	return (
-		<div className=''>
+		<div className='bg-[#091B18] min-h-screen flex flex-col'>
 			<Head>
 				<title>CryptoDraw</title>
 				<link rel='icon' href='/favicon.ico' />
