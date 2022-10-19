@@ -10,6 +10,7 @@ import {
 } from "@thirdweb-dev/react";
 import Login from "../components/Login";
 import Loading from "../components/Loading";
+import NextDraw from "../components/NextDraw";
 
 const Home: NextPage = () => {
 	const address = useAddress();
@@ -29,6 +30,7 @@ const Home: NextPage = () => {
 			</Head>
 
 			<Header />
+			<NextDraw />
 		</div>
 	);
 };
